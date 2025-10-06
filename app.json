@@ -1,0 +1,31 @@
+{
+  "name": "Blog API",
+  "description": "Blog Management API with Spring Boot",
+  "repository": "https://github.com/your-username/blog-api",
+  "logo": "https://spring.io/img/spring-2.svg",
+  "keywords": ["spring", "boot", "java", "blog", "api", "postgresql"],
+  "success_url": "/swagger-ui.html",
+  "env": {
+    "JAVA_OPTS": {
+      "description": "Java options",
+      "value": "-Xmx512m -Xms512m"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "DATABASE"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}

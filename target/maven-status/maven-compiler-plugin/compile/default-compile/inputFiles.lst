@@ -1,0 +1,11 @@
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\BlogApiApplication.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\entity\Post.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\controller\HealthController.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\service\PostService.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\controller\PostController.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\controller\CategoryController.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\entity\Category.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\repository\PostRepository.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\repository\CategoryRepository.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\entity\PostStatus.java
+C:\zero-base13week\02-blog-api\src\main\java\com\example\blogapi\service\CategoryService.java
