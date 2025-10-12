@@ -1,0 +1,33 @@
+{
+  "name": "User Service",
+  "description": "User management service",
+  "image": "heroku/java",
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0",
+      "as": "DATABASE"
+    }
+  ],
+  "env": {
+    "JAVA_OPTS": {
+      "description": "Java runtime options",
+      "value": "-Xmx512m -Xms512m"
+    },
+    "SPRING_PROFILES_ACTIVE": {
+      "description": "Spring Boot active profile",
+      "value": "heroku"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
+

@@ -1,0 +1,3 @@
+com\example\common\entity\BaseEntity.class
+com\example\common\controller\BaseHealthController.class
+com\example\common\dto\ApiResponse.class
