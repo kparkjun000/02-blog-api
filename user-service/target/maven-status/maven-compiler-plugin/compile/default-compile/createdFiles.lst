@@ -1,6 +1,0 @@
-com\example\userapi\controller\UserController.class
-com\example\userapi\entity\User.class
-com\example\userapi\repository\UserRepository.class
-com\example\userapi\entity\UserRole.class
-com\example\userapi\service\UserService.class
-com\example\userapi\UserApiApplication.class
